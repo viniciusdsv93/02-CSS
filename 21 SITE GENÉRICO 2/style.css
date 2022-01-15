@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin: auto;
+    background-color: white;
+}
+
+h1 {
+    color: #0C165E;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+p.sem-indentacao {
+    text-indent: 0px;
+}
+
+header {
+    font-size: 30px;
+    padding: 60px;
+    color: white;
+    text-align: left;
+    background-image: linear-gradient(180deg, #1D33DE, #292F5E);
+}
+
+header > h1 {
+    color: white;
+}
+
+header > p {
+    width: 800px;
+    text-align: justify;
+}
+
+header > a {
+    font-size: 0.7em;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+header > a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    padding: 20px;
+    margin-bottom: 150px;
+    
+}
+
+nav > a {
+    color: #1D33DE;
+    display: inline-block;
+    padding-left: 30px;
+    text-decoration: none;
+    width: 200px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+section#caixas {
+    background-color: lightgray;
+    color: #0C165E;
+    padding: 20px;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+section#caixas > p {
+    color: black;
+    padding: 40px;
+    font-size: 20px;
+    width: auto;
+    
+}

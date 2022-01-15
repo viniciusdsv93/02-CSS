@@ -1,0 +1,14 @@
+body {
+	font-family: Arial;
+	color: black;
+}
+
+#id1 {
+	font-family: Verdana;
+	color: blue;
+}
+
+.classe1 {
+	font-family: Tahoma;
+	color: gray;
+}
