@@ -8,10 +8,22 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+
+            /*background-color: black;
             background-position: center top;
             background-image: url('imagens/wallpaper002.jpg');
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - Background
+            color > image > position > repeat > [size] > attachment
+
+            size não funciona no shorthand, é preciso fazer uma declaração à parte
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+
             background-size: cover;
         }
 
@@ -20,7 +32,8 @@
             margin: auto;
             border: 5px solid blue;
             border-radius: 10px;
-            width: 400px;
+            max-width: 500px;
+            min-width: 400px;
             padding: 10px;
         }
 
@@ -37,7 +50,7 @@
 <body>
     <div>
         <h1>Background Image Test</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eligendi voluptatum facilis rem harum, enim, vel voluptate est perferendis, alias ducimus? Possimus quod perspiciatis, quos rem minima at. Quos, officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim distinctio odit sunt fugiat culpa, laboriosam, iste exercitationem autem excepturi tempora voluptate eius! Omnis nobis, dolore officiis quis amet autem exercitationem!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eligendi voluptatum facilis rem harum, enim, vel voluptate est perferendis, alias ducimus? Possimus quod perspiciatis, quos rem minima at. Quos, officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim distinctio odit sunt fugiat culpa, laboriosam, iste exercitationem autem excepturi tempora voluptate eius! Omnis nobis, dolore officiis quis amet autem exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ex natus velit omnis sequi, excepturi corrupti nam itaque harum cupiditate accusantium quo incidunt, iusto sit? Quae ab excepturi modi quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, optio repellendus. Quidem amet porro voluptatum ullam asperiores praesentium. Dolores distinctio recusandae minus aut suscipit laboriosam laudantium in tenetur mollitia nisi! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum totam in, optio odit magnam aperiam quibusdam ducimus non, dolores dicta similique quam quo officia maxime sint! Amet iure numquam excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, commodi consectetur sequi id pariatur sed magni ex sapiente voluptas enim possimus temporibus animi quos nesciunt maiores delectus omnis debitis quod! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis minus autem non voluptate expedita fuga possimus aperiam molestias, maxime eum suscipit nihil distinctio excepturi quod placeat. Vitae, nostrum cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eligendi voluptatum facilis rem harum, enim, vel voluptate est perferendis, alias ducimus? Possimus quod perspiciatis, quos rem minima at. Quos, officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim distinctio odit sunt fugiat culpa, laboriosam, iste exercitationem autem excepturi tempora voluptate eius! Omnis nobis, dolore officiis quis amet autem exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ex natus velit omnis sequi, excepturi corrupti nam itaque harum cupiditate accusantium quo incidunt, iusto sit? Quae ab excepturi modi quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, optio repellendus. Quidem amet porro voluptatum ullam asperiores praesentium. Dolores distinctio recusandae minus aut suscipit laboriosam laudantium in tenetur mollitia nisi! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum totam in, optio odit magnam aperiam quibusdam ducimus non, dolores dicta similique quam quo officia maxime sint! Amet iure numquam excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, commodi consectetur sequi id pariatur sed magni ex sapiente voluptas enim possimus temporibus animi quos nesciunt maiores delectus omnis debitis quod! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis minus autem non voluptate expedita fuga possimus aperiam molestias, maxime eum suscipit nihil distinctio excepturi quod placeat. Vitae, nostrum cumque?</p>
     </div>
 </body>
 </html>
